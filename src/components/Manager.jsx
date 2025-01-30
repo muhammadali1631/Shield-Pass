@@ -139,9 +139,9 @@ const Manager = () => {
           </button>
         </div>
         <div className="passwords overflow-x-scroll mb-4">
-          <h2 className="text-2xl font-bold py-4">Your Passwords</h2>
+          <h2 className="text-2xl font-bold py-4 text-white">Your Passwords</h2>
           {passwordArray.length === 0 ? (
-            <div>Password not found</div>
+            <p className="text-white">Password not found</p>
           ) : (
             <table className="table-auto w-full overflow-hidden rounded-md">
               <thead className="bg-slate-800 text-white">

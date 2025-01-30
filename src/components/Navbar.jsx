@@ -18,13 +18,15 @@ const Navbar = () => {
                 <a href='#'>Contact</a>
             </li>
         </ul> */}
-        <button className="text-white bg-slate-400 flex items-center justify-between rounded-full ring-1 ring-white">
+        <a href="https://github.com/muhammadali1631/" className='cursor-pointer' target="_blank" >
+        <button className="text-white bg-slate-400 flex cursor-pointer items-center justify-between rounded-full ring-1 ring-white">
           <img className='invert w-10 p-1' src="/icons/github.svg" alt="github logo" />
           <span className='px-3 '>
 
           Github
           </span>
         </button>
+        </a>
         </div>
     </nav>
   )
